@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 173, 173);
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+ul li{
+    margin-bottom: 8px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a :hover{
+    color: red;
+}
+
+header h2{
+    background-color: rgb(56, 53, 53);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.Profil{
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bg{
+    background-color: rgb(56, 53, 53);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.foto{
+    text-align: center;
+}
+
+.img{
+    margin: auto;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+form{
+    margin-top: 20px;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea {
+    width: 98%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: rgb(56, 53, 53);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition-duration: 900ms;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: crimson;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    padding: 15px 0;
+    margin-top: 50px;
+}
