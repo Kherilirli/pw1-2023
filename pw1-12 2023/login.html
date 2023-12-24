@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .form{
+        width: 420px;
+        background-color: rgb(165, 0, 0);
+        color: white;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        padding: 30px 40px;
+    }
+    .form h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .form form{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+    form input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        font-size: 1.2rem;
+        color: white;
+        background: rgb(127, 0, 0);
+        padding: 20px 45px 20px 20px;
+        
+    }
+    .btn{
+        width: 100%;
+        height: 45px;
+        background: white;
+        outline: none;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        box-shadow: var(--box-shadow);
+        cursor: pointer;
+        font-size: 0.938rem;
+        font-weight: 700;
+        color: black;
+    }
+    .btn:hover{
+        background: rgb(180, 180, 180);
+    }
+</style>
+
+<body>
+    <section class="login">
+    <div class="form">
+        <h1>Login</h1>
+        <form class="sign">
+            <input type="text" id="username" placeholder="Username">
+        </form>
+        <form class="sign">
+            <input type="password" id="password" placeholder="Password">
+        </form>
+        <button class="btn" type="submit" onclick="authentication()">Login</button>
+    </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
